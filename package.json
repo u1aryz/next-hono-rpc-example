@@ -10,9 +10,12 @@
     "format": "biome check . --apply-unsafe"
   },
   "dependencies": {
+    "@hono/zod-validator": "^0.1.11",
+    "hono": "^3.11.1",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
